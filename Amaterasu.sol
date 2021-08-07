@@ -32,7 +32,7 @@ contract Rasu is ERC20, Ownable {
     uint256 public liquidityFee = 2; // Added To Liquidity
     uint256 public marketFee = 5; // Goes To Marketing Wallet
     uint256 public extraSellFee = 4; // Makes Price Stable
-    address public _marketingWalletAddress = 0x1065344df0e0dfd80672a9c8ad318e3603946edb; // Marketing Wallet
+    address public _marketingWalletAddress = 0x1065344Df0E0dFD80672a9c8Ad318E3603946EDb; // Marketing Wallet
 
 
     // use by default 300,000 gas to process auto-claiming dividends
